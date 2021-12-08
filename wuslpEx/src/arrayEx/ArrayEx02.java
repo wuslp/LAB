@@ -11,7 +11,7 @@ public class ArrayEx02 {
 		int[] score = {100, 88, 100, 100, 90};  
 		
 		for(int i=0; i<score.length; i++) {
-			sum += score[i];
+			sum += score[i];  
 		}
 		average = sum / (float)score.length ; // 계산 결과를 float으로 얻기 위해 형변환 
 		
