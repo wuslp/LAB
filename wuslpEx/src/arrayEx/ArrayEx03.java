@@ -14,7 +14,7 @@ public class ArrayEx03 {
 			if(score[i] > max) {
 				max = score[i];
 			}else if(score[i] < min) {
-				min = score[i];
+				min = score[i];  
 			}
 		} // for문 종료
 		System.out.println("최대값 : " + max);
