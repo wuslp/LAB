@@ -19,7 +19,7 @@ public class Main {
 		main.invoke(hello); //hello main 호출. 
 		
 		
-		// 잘 모르겠지만 Reflection API를 사용을 사용해서 호출했다고 알아두자. 
+		// 잘 모르겠지만 Reflection API를 사용을 사용해서 호출했다고 알아두자.
 	}
 
 }
