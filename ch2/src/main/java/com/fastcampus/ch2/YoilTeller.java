@@ -24,7 +24,7 @@ public class YoilTeller {
 		
 		// 3. 출력
 		System.out.println(year+"년 "+month+"월 "+day+"일은 ");
-		System.out.println(yoil+"요일입니다.");
+		System.out.println(yoil+"요일입니다."); 
 	}
 
 }
