@@ -21,7 +21,7 @@ public class TwoDice {
 		PrintWriter out = response.getWriter();
 		out.println("<html>"); 
 		out.println("<head>"); 
-		out.println("</head>"); 
+		out.println("</head>");
 		out.println("<body>"); 
 		out.println("</body>"); 
 		out.println("</html>"); 
