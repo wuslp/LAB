@@ -22,7 +22,7 @@ public class TwoDice {
 		
 		//4.
 		response.setContentType("text/html");	
-		response.setCharacterEncoding("utf-8");
+		response.setCharacterEncoding("utf-8"); 
 		PrintWriter out = response.getWriter();
 		out.println("<html>"); 
 		out.println("<head>"); 
