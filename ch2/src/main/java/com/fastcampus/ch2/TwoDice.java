@@ -22,7 +22,7 @@ public class TwoDice {
 		out.println("<html>"); 
 		out.println("<head>"); 
 		out.println("</head>");
-		out.println("<body>"); 
+		out.println("<body>");
 		out.println("</body>"); 
 		out.println("</html>"); 
 	}
