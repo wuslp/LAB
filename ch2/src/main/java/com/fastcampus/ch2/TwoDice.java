@@ -15,6 +15,11 @@ public class TwoDice {
 	
 	// 3. 브라우저로 출력하기 위해 HttpServletResponse response 객체 필요
 	public void main(HttpServletResponse response)throws IOException { 
+		// 주사위 사진 (resources/img/dice1.jpg) 랜덤으로 나오게 하기. 
+		int idx1 = (int)(Math.random()*6)+1;
+		int idx2 = (int)(Math.random()*6)+1;
+		
+		
 		//4.
 		response.setContentType("text/html");	
 		response.setCharacterEncoding("utf-8");
@@ -23,6 +28,8 @@ public class TwoDice {
 		out.println("<head>"); 
 		out.println("</head>");
 		out.println("<body>");
+		out.println("<img src='resources/img/dice"+idx1+".jpg'>");	// 랜덤으로 주사위 나오게 하기.	
+		out.println("<img src='resources/img/dice2.jpg'>");		
 		out.println("</body>"); 
 		out.println("</html>"); 
 	}
