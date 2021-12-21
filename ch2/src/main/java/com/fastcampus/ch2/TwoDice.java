@@ -17,8 +17,7 @@ public class TwoDice {
 	public void main(HttpServletResponse response)throws IOException { 
 		// 주사위 사진 (resources/img/dice1.jpg) 랜덤으로 나오게 하기. 
 		int idx1 = (int)(Math.random()*6)+1;
-		int idx2 = (int)(Math.random()*6)+1;
-		
+		int idx2 = (int)(Math.random()*6)+1; //Toggle breakPoint : 중단점. 디버그 모드 사용할 때.
 		
 		//4.
 		response.setContentType("text/html");	
